@@ -61,7 +61,7 @@ Term::query()
 ```php
 Term::query()
     ->where('taxonomy', 'tags')
-    ->where('entries_count', '>=', 1);
+    ->where('entries_count', '>=', 1)
     ->get();
 ```
 
